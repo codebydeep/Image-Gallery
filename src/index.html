@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery Lightbox</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <div class="relative min-h-screen bg-[#121212] overflow-hidden">
+      <div
+        class="absolute top-1/4 left-10 w-72 h-72 bg-purple-500 opacity-30 blur-3xl rounded-full"
+      ></div>
+      <div
+        class="absolute bottom-10 right-20 w-72 h-72 bg-yellow-400 opacity-20 blur-3xl rounded-full"
+      ></div>
+      <div
+        class="absolute top-10 right-10 w-60 h-60 bg-red-500 opacity-20 blur-3xl rounded-full"
+      ></div>
+      <div
+        class="absolute bottom-32 left-32 w-60 h-60 bg-blue-500 opacity-20 blur-3xl rounded-full"
+      ></div>
+
+      <div class="relative w-full flex flex-col items-center px-4 mt-16">
+        <h1 class="text-4xl font-bold text-white mb-16 font-mono">
+          Image Gallery
+        </h1>
+        <div
+          id="image-container"
+          class="flex flex-wrap justify-center gap-8"
+        ></div>
+      </div>
+    </div>
+
+    <div
+      id="lightbox"
+      class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm items-center justify-center z-50 transition-opacity duration-300"
+    >
+      <button
+        id="prevBtn"
+        class="absolute left-8 top-1/2 -translate-y-1/2 text-white bg-black/40 hover:bg-white hover:text-black cursor-pointer rounded-full w-14 h-14 flex items-center justify-center text-3xl shadow-lg transition"
+      >
+        ⟨
+      </button>
+
+      <img
+        id="lightboxImg"
+        src=""
+        alt="Lightbox Image"
+        class="max-w-[85%] max-h-[85%] rounded-2xl shadow-2xl border-2 border-white/20 transition-transform duration-300"
+      />
+
+      <button
+        id="nextBtn"
+        class="absolute right-8 top-1/2 -translate-y-1/2 text-white bg-black/40 hover:bg-white hover:text-black cursor-pointer rounded-full w-14 h-14 flex items-center justify-center text-3xl shadow-lg transition"
+      >
+        ⟩
+      </button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
