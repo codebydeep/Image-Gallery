@@ -16,11 +16,13 @@ A responsive Image Gallery built using HTML, TailwindCSS, and JavaScript, featur
 
 - 📱 Fully responsive for desktop & mobile.
 
+<<<<<<< HEAD
 This commit is fine.
 
-This commit is not fine.
-
 This commit is also fine.
+=======
+This commit is fine
+>>>>>>> parent of 58ae284 (added- not-fine commit)
 ---
 
 ## 🛠️ Tech Stack  
