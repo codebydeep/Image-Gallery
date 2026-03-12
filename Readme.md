@@ -21,7 +21,7 @@ A responsive Image Gallery built using HTML, TailwindCSS, and JavaScript, featur
 
 ## 🛠️ Tech Stack  
 - **HTML5** – Structure  
-- **TailwindCSS** – Styling + Background
+- **TailwindCSS** – Styling + Background Effect
 - **JavaScript** – Core logic
 
 ---
