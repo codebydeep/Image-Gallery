@@ -16,7 +16,7 @@ A responsive Image Gallery built using HTML, TailwindCSS, and JavaScript, featur
 
 - 📱 Fully responsive for desktop & mobile.
 
-This commit is fine.
+This commit is fine
 ---
 
 ## 🛠️ Tech Stack  
